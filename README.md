@@ -1,4 +1,12 @@
 # Business-Analysis
+Business Demand:
+
+1. Need to improve our internet sales reports and move from static reports to visual dashboards.
+2. Identify How many products have been sold, what are those products, to which clients, and how sales have performed over time.
+3. See each sales person performance on different products and customers to see if it would be beneficial to be able to filter them.
+4. Measure our numbers against budget in spreadsheet to compare our values to the performance.
+5. The budget is for 2021 and we usually look 2 years back in time when we do analysis of sales.
+
 Business Demand Overview:
 
 - Reporter: Sales Manager
