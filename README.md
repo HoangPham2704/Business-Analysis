@@ -112,6 +112,10 @@ ORDER BY
 
 ## Recommendation:
 
-* The COVID-19 pandemic has already impacted on the business in the first month of 2021, we need to act fast by categorize expenses with a focus on essential operational needs while cost-cutting measures in non-essential areas during these uncertain times.
+- Through this data analysis, it's evident that optimizing customer segmentation strategies based on behavioral patterns will significantly enhance targeted marketing efforts.
+
+* Recommending the implementation of predictive modeling to forecast customer preferences and streamline product offerings.
+
+* Moreover, the COVID-19 pandemic has already impacted on the business in the first month of 2021, we need to act fast by categorize expenses with a focus on essential operational needs while cost-cutting measures in non-essential areas during these uncertain times.
 
 * Examine government aid programs to mitigate the impact of the COVID-19 pandemic on the business. Use these programs strategically to alleviate financial stress, enhance operational sustainability and strengthen our resilience in this challenging economic environment.
