@@ -23,12 +23,6 @@ Tasks:
 | 3  | Sales Representative | A detailed overview of Internet Sales per Products | Can follow up my Products that sells the most | A Power BI dashboard which allows to filter data for each Product |
 | 4  | Sales Manager | A detailed overview of Internet Sales | Follow Sales over time against budget | A Power BI dashboard with graphs and KPIs comparing against budget. |
 
-## Skills Demonstrated:
-
-* Data Cleansing and Transforming in SQL Server
-
-* Data Visualization using Power BI
-
 ## Extract Data:
 1. Customer query:
 ```ruby
