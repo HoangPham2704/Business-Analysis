@@ -109,3 +109,9 @@ ORDER BY
 
 ### Customer Details:
 ![](Dashboards/CustomerDetails.png)
+
+## Recommendation:
+
+* The ongoing COVID-19 pandemic is going to impact on the business, we need to categorize expenses with a focus on essential operational needs while cost-cutting measures in non-essential areas to preserve during these uncertain times.
+
+* Examine government aid programs to mitigate the impact of the COVID-19 pandemic on our business. Use these programs strategically to alleviate financial stress, enhance operational sustainability and strengthen our resilience in this challenging economic environment.
