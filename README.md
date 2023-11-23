@@ -12,7 +12,7 @@ Business Demand Overview:
 - Reporter: Sales Manager
 - Value of Change: Visual Dashboards and Improved Sales Reporting or Follow up for the Sales Force
 - Necessary Systems: Power BI, CRM System
-- Other relevant info: Budgets have been delivered in Excel for 2021
+- Other relevant info: Budgets will be delivered in Excel for 2021
 
 User Stories:
 
