@@ -23,8 +23,15 @@ User Stories:
 | 3  | Sales Representative | A detailed overview of Internet Sales per Products | Can follow up my Products that sells the most | A Power BI dashboard which allows to filter data for each Product |
 | 4  | Sales Manager | A detailed overview of Internet Sales | Follow Sales over time against budget | A Power BI dashboard with graphs and KPIs comparing against budget. |
 
-## Extract Data:
+## Skills Demonstrated:
 
+Data Cleansing and Transforming in SQL Server
+
+Data Visualization using Power BI
+
+## Extract Data:
+1. Cleansing data
+   1) Customer query:
 ```ruby
 --Cleanse DimCustomer Table--
 SELECT 
@@ -41,3 +48,62 @@ FROM
 ORDER BY 
   CustomerKey ASC --Ordered List by CustomerKey
 ```
+   2) Date query:
+```ruby
+--Cleanse DimDate Table--
+SELECT 
+  [DateKey], 
+  [FullDateAlternateKey] as Date, 
+  [EnglishDayNameOfWeek] as Day, 
+  [WeekNumberOfYear] as WeekNo, 
+  [EnglishMonthName] as Month, 
+  LEFT(EnglishMonthName, 3) as MonthShort, 
+  [MonthNumberOfYear] as MonthNo, 
+  [CalendarQuarter] as Quarter, 
+  [CalendarYear] as Year --[CalendarSemester]
+FROM 
+  [AdventureWorksDW2019].[dbo].[DimDate] 
+WHERE 
+  CalendarYear >= 2019
+```
+   4) Product query:
+```ruby
+--Cleanse DimProduct--
+SELECT 
+  Pd.[ProductKey], 
+  Pd.[ProductAlternateKey] AS [Product Code], 
+  Pd.[EnglishProductName] AS [Product Name], 
+  Ps.[EnglishProductSubcategoryName] AS [Sub Category], --Joined in from Subcategiry Table
+  Pc.[EnglishProductCategoryName] AS [Product Category], --Joined in from Category Table
+  Pd.[Color] AS [Product Color], 
+  Pd.[Size] AS [Product Size], 
+  Pd.[ProductLine] AS [Product Line], 
+  Pd.[ModelName] AS [Product Model Name], 
+  Pd.[EnglishDescription] AS [Product Description], 
+  isnull (Pd.[Status], 'Outdated') AS [Product Status] 
+FROM 
+  [AdventureWorksDW2019].[dbo].[DimProduct] AS Pd 
+  LEFT JOIN [AdventureWorksDW2019].[dbo].[DimProductSubcategory] AS Ps ON Pd.ProductSubcategoryKey = Ps.ProductSubcategoryKey 
+  LEFT JOIN [AdventureWorksDW2019].[dbo].[DimProductCategory] AS Pc ON Ps.ProductCategoryKey = Pc.ProductCategoryKey 
+ORDER BY 
+  Pd.[ProductKey] ASC
+```
+   5) Internet Sales query:
+```ruby
+--Cleanse InternetSales Table--
+SELECT 
+  [ProductKey], 
+  [OrderDateKey], 
+  [DueDateKey], 
+  [ShipDateKey], 
+  [CustomerKey], 
+  [SalesOrderNumber], 
+  [SalesAmount]
+FROM 
+  [AdventureWorksDW2019].[dbo].[FactInternetSales] 
+WHERE 
+  LEFT([OrderDateKey], 4) >= 2019 
+ORDER BY 
+  [OrderDateKey] ASC
+```
+
