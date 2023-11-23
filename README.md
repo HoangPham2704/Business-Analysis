@@ -108,10 +108,10 @@ ORDER BY
 
 ## Analysis Dashboards:
 ### Customer Overview:
-![](Customer Overview.png)
+![](CustomerOverview.png)
 
 ### Product Details:
-![](Product Details.png)
+![](ProductDetails.png)
 
 ### Customer Details:
-![](Customer Details.png)
+![](CustomerDetails.png)
