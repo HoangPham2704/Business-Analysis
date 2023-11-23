@@ -14,7 +14,7 @@ Business Demand Overview:
 - Necessary Systems: Power BI, CRM System
 - Other relevant info: Budgets will be delivered in Excel for 2021
 
-User Stories:
+Tasks:
 
 | No #  | Role | Request / Demand  | User Value | Acceptance Criteria |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -47,7 +47,7 @@ FROM
 ORDER BY 
   CustomerKey ASC --Ordered List by CustomerKey
 ```
-   2) Date query:
+   2. Date query:
 ```ruby
 --Cleanse DimDate Table--
 SELECT 
@@ -65,7 +65,7 @@ FROM
 WHERE 
   CalendarYear >= 2019
 ```
-   4) Product query:
+   3. Product query:
 ```ruby
 --Cleanse DimProduct--
 SELECT 
@@ -87,7 +87,7 @@ FROM
 ORDER BY 
   Pd.[ProductKey] ASC
 ```
-   5) Internet Sales query:
+   4. Internet Sales query:
 ```ruby
 --Cleanse InternetSales Table--
 SELECT 
