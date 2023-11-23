@@ -25,13 +25,12 @@ User Stories:
 
 ## Skills Demonstrated:
 
-Data Cleansing and Transforming in SQL Server
+* Data Cleansing and Transforming in SQL Server
 
-Data Visualization using Power BI
+* Data Visualization using Power BI
 
 ## Extract Data:
-1. Cleansing data
-   1) Customer query:
+1. Customer query:
 ```ruby
 --Cleanse DimCustomer Table--
 SELECT 
