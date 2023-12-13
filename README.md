@@ -110,14 +110,21 @@ ORDER BY
 ### Customer Details:
 ![](Dashboards/CustomerDetails.png)
 
-## Recommendation:
+## Insights:
 
-Through this data analysis, it's evident that optimizing customer segmentation strategies based on behavioral patterns will significantly enhance targeted marketing efforts.
+Based on the data from previous years, the sales on the last quarter of 2019 (38K) due to customers spending for their family and friends on Christmas Event then further increased (+ 3K) on the first quarter of 2020 sales may correlated by the marketing campaign from last year or just simply because of New Year Eve. 
 
-Recommending:
+But the sales on January 2021 foreward plummed at all time low according to the collected data. Further research found that Covid-19 pandemic occur which cause many businesses to temporary close and people were forced to stay in-door.
 
-* The implementation of predictive modeling to forecast customer preferences and streamline product offerings.
+## Recommendations:
 
-* Moreover, the COVID-19 pandemic has already impacted on the business in the first month of 2021, we need to act fast by categorize expenses with a focus on essential operational needs while cost-cutting measures in non-essential areas during these uncertain times.
+1. Understanding the situation:
 
-* Examine government aid programs to mitigate the impact of the COVID-19 pandemic on the business. Use these programs strategically to alleviate financial stress, enhance operational sustainability and strengthen our resilience in this challenging economic environment.
+* Research on the pandemic for a solution to the urgent situation.
+* Research on competitors to see how they approach to the current situation.
+* Research on customers to understand their spending behaviour.
+
+2. Double down on engagement strategies to help increase the awareness of customers to increase the market share.
+
+* Perform marketing on social media to spread awareness to more consumers featuring easy to understand content on television channels, social media, influencer program, etc.
+* Release pricing blundle, new campaign align the product value to users, how the product fulfill consumer needs.
